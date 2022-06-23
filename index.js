@@ -47,9 +47,5 @@ function makeRequest(queryParam){
     }else{
         main('http://localhost:3000/procedimentos')
     }
-        
-    
-
-    
 }
 window.onload = main('http://localhost:3000/procedimentos')
