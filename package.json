@@ -3,9 +3,11 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "back-end": "json-server --watch procedimentos.json"
   },
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "json-server": "^0.17.0"
   }
 }

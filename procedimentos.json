@@ -1,7 +1,1574 @@
-[
+{
+  "procedimentos": [
   {
     "Categoria": "Cardiologia",
     "Codigo": 20103182,
     "Descricao": "Desvios posturais da coluna vertebral"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103220,
+    "Descricao": "Doenças pulmonares atendidas em ambulatório"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103310,
+    "Descricao": "Lesão nervosa periférica afetando mais de um nervo com alter"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103328,
+    "Descricao": "Lesão nervosa periférica afetando um nervo com alterações se"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103344,
+    "Descricao": "Miopatias"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103409,
+    "Descricao": "Pacientes com doenças neuro-músculo-esqueléticas com envolvi"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103425,
+    "Descricao": "Paralisia cerebral"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103441,
+    "Descricao": "Paraparesia/tetraparesia"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103476,
+    "Descricao": "Patologia neurológica com dependência de atividades da vida"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103484,
+    "Descricao": "Patologia osteomioarticular em um membro"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103506,
+    "Descricao": "Patologia osteomioarticular em um segmento da coluna"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103530,
+    "Descricao": "Recuperação funcional pós-operatória ou por imobilização da"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103646,
+    "Descricao": "Reabilitacao perineal com biofeedback"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20103689,
+    "Descricao": "Retardo do desenvolvimento psicomotor"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20104065,
+    "Descricao": "Cerumen - remoção (bilateral)"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20104243,
+    "Descricao": "Terapia oncológica com altas doses - planejamento e 1º dia d"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20104294,
+    "Descricao": "Terapia oncológica - planejamento e 1º dia de tratamento"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20104308,
+    "Descricao": "Terapia oncológica - por dia subseqüente de tratamento"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20104383,
+    "Descricao": "Pulsoterapia / terapia imunológica intravenosa (por sessão)"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 20104391,
+    "Descricao": "Terapia imunobiológica intravenosa (por sessão)"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 30101468,
+    "Descricao": "Exérese de lesão / tumor de pele e mucosas"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 31601014,
+    "Descricao": "Acupuntura por sessão"
+  },
+  {
+    "Categoria": "Cardiologia",
+    "Codigo": 40101010,
+    "Descricao": "ECG convencional de até 12 derivações"
+  },
+  {
+    "Categoria": "Endoscopia diagnostica",
+    "Codigo": 40103463,
+    "Descricao": "Otoemissões evocadas transientes"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301060,
+    "Descricao": "Ácido ascórbico (vitamina C)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301087,
+    "Descricao": "Ácido fólico, dosagem nos eritrócitos"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301150,
+    "Descricao": "Ácido úrico"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301222,
+    "Descricao": "Albumina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301281,
+    "Descricao": "Amilase"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301354,
+    "Descricao": "Apolipoproteína A (Apo A)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301397,
+    "Descricao": "Bilirrubinas (direta, indireta e total)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301400,
+    "Descricao": "Cálcio"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301419,
+    "Descricao": "Cálcio iônico"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301508,
+    "Descricao": "Clearance de creatinina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301559,
+    "Descricao": "Cloro"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301567,
+    "Descricao": "Cobre"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301583,
+    "Descricao": "Colesterol (HDL)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301591,
+    "Descricao": "Colesterol (LDL)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301605,
+    "Descricao": "Colesterol total"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301621,
+    "Descricao": "Creatina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301630,
+    "Descricao": "Creatinina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301648,
+    "Descricao": "Creatino fosfoquinase total (CK)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301664,
+    "Descricao": "Creatino fosfoquinase - fração MB - atividade"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301729,
+    "Descricao": "Desidrogenase láctica"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301761,
+    "Descricao": "Eletroferese de proteínas"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301842,
+    "Descricao": "Ferro sérico"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301885,
+    "Descricao": "Fosfatase alcalina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301931,
+    "Descricao": "Fósforo"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40301990,
+    "Descricao": "Gama-glutamil transferase"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302040,
+    "Descricao": "Glicose"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302075,
+    "Descricao": "Hemoglobina glicada (A1 total)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302113,
+    "Descricao": "Homocisteína"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302164,
+    "Descricao": "Lactose, teste de tolerância"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302199,
+    "Descricao": "Lipase"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302237,
+    "Descricao": "Magnésio"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302318,
+    "Descricao": "Potássio"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302377,
+    "Descricao": "Proteínas totais"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302385,
+    "Descricao": "Proteínas totais albumina e globulina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302423,
+    "Descricao": "Sódio"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302504,
+    "Descricao": "Transaminase oxalacética (amino transferase aspartato)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302512,
+    "Descricao": "Transaminase pirúvica (amino transferase de alanina)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302520,
+    "Descricao": "Transferrina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302547,
+    "Descricao": "Triglicerídeos"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302571,
+    "Descricao": "Troponina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302580,
+    "Descricao": "Uréia"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302610,
+    "Descricao": "Vitamina E"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302709,
+    "Descricao": "Teste oral de tolerancia a glicose - 2 dosagens"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302733,
+    "Descricao": "Hemoglobina glicada (Fração A1c)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302750,
+    "Descricao": "Perfil lipídico / lipidograma (lípidios totais, colesterol,"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302776,
+    "Descricao": "Peptideo natriuretico BNP/PROBNP"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40302830,
+    "Descricao": "Vitamina D 25 HIDROXI, dosagem (Vitamina D3)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303039,
+    "Descricao": "Coprológico funcional (caracteres, pH, digestibilidade, amôn"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303080,
+    "Descricao": "Larvas (fezes), pesquisa"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303098,
+    "Descricao": "Leucócitos e hemácias, pesquisa nas fezes"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303110,
+    "Descricao": "Parasitológico"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303128,
+    "Descricao": "Parasitológico, colheita múltipla com fornecimento do líquid"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303136,
+    "Descricao": "Sangue oculto, pesquisa"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303250,
+    "Descricao": "Sangue oculto nas fezes, pesquisa imunológica"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40303330,
+    "Descricao": "Calprotectina, dosagem fecal (com diretriz definida pela ANS - nº 134)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304019,
+    "Descricao": "Anticoagulante lúpico, pesquisa"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304060,
+    "Descricao": "Antitrombina III, dosagem"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304108,
+    "Descricao": "Coombs direto"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304116,
+    "Descricao": "Enzimas  eritrocitárias,  (adenilatoquinase,  desidrogenase"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304264,
+    "Descricao": "Fibrinogênio, teste funcional, dosagem"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304299,
+    "Descricao": "Grupo sanguíneo ABO, e fator Rho (inclui Du)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304361,
+    "Descricao": "Hemograma com contagem de plaquetas ou frações (eritrograma,"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304370,
+    "Descricao": "Hemossedimentação, (VHS)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304507,
+    "Descricao": "Proteína C"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304515,
+    "Descricao": "Proteina S, teste funcional"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304590,
+    "Descricao": "Tempo de protrombina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304639,
+    "Descricao": "Tempo de tromboplastina parcial ativada"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304884,
+    "Descricao": "Coombs indireto"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304906,
+    "Descricao": "Dimero D"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40304922,
+    "Descricao": "Coagulograma (TS, TC, prova do laço, retração do coágulo, co"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305015,
+    "Descricao": "1,25-dihidroxi vitamina D"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305210,
+    "Descricao": "Cortisol livre"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305406,
+    "Descricao": "IGF BP3 (proteína ligadora dos fatores de crescimento insuli"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305465,
+    "Descricao": "Paratormônio - PTH ou fração (cada)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305546,
+    "Descricao": "Prova do LH-Rh, dosagem do FSH sem fornecimento de medicamen"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305554,
+    "Descricao": "Prova do LH-Rh, dosagem do LH sem fornecimento de medicament"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305597,
+    "Descricao": "Estrogênios totais (fenolesteróides)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305627,
+    "Descricao": "Provas de função tireoideana (T3, T4, índices e TSH)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40305767,
+    "Descricao": "Hormônio gonodotrofico corionico quantitativo (HCG-Beta-HCG)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306062,
+    "Descricao": "Anti-DNA"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306089,
+    "Descricao": "Anti-LA/SSB"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306100,
+    "Descricao": "Anti-RNP"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306119,
+    "Descricao": "Anti-Ro/SSA"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306127,
+    "Descricao": "Anti-Sm"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306143,
+    "Descricao": "Anticardiolipina - IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306151,
+    "Descricao": "Anticardiolipina - IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306305,
+    "Descricao": "Antigliadina (glúten) - IgA"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306313,
+    "Descricao": "Antigliadina (glúten) - IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306348,
+    "Descricao": "Antimicrossomal"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306437,
+    "Descricao": "Antiperoxidase tireoideana"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306445,
+    "Descricao": "Aslo"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306461,
+    "Descricao": "Avidez de IgG para toxoplasmose, citomegalia, rubeola, EB e"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306666,
+    "Descricao": "Citomegalovírus IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306674,
+    "Descricao": "Citomegalovírus IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306704,
+    "Descricao": "Complemento C3"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306712,
+    "Descricao": "Complemento C4"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306747,
+    "Descricao": "Complemento CH-50"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306798,
+    "Descricao": "Dengue - IgG e IgM (cada)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306852,
+    "Descricao": "Fator antinúcleo, (FAN)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306860,
+    "Descricao": "Fator reumatóide, quantitativo"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306933,
+    "Descricao": "Hepatite A - HAV - IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306941,
+    "Descricao": "Hepatite A - HAV - IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306950,
+    "Descricao": "Hepatite B - HBCAC - IgG (anti-core IgG ou Acoreg)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306968,
+    "Descricao": "Hepatite B - HBCAC - IgM (anti-core IgM ou Acorem)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306976,
+    "Descricao": "Hepatite B - HBeAC (anti HBE)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306984,
+    "Descricao": "Hepatite B - HBeAG (antígeno E)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40306992,
+    "Descricao": "Hepatite B - HBSAC (anti-antígeno de superfície)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307018,
+    "Descricao": "Hepatite B - HBSAG (AU, antígeno austrália)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307026,
+    "Descricao": "Hepatite C - anti-HCV"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307093,
+    "Descricao": "Herpes simples - IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307174,
+    "Descricao": "HIV1 ou HIV2, pesquisa de anticorpos"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307182,
+    "Descricao": "HIV1+ HIV2, (determinação conjunta), pesquisa de anticorpos"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307220,
+    "Descricao": "IgA"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307255,
+    "Descricao": "IgE, grupo específico, cada"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307271,
+    "Descricao": "IgE, total"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307433,
+    "Descricao": "Linfócitos T helper contagem de (IF com OKT-4) (CD-4+) citom"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307441,
+    "Descricao": "Linfócitos T supressores contagem de (IF com OKT-8) (D-8) ci"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307697,
+    "Descricao": "Rubéola - IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307700,
+    "Descricao": "Rubéola - IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307760,
+    "Descricao": "Sífilis - VDRL"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307794,
+    "Descricao": "Toxocara cannis - IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307824,
+    "Descricao": "Toxoplasmose IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40307832,
+    "Descricao": "Toxoplasmose IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308030,
+    "Descricao": "Fator reumatóide, teste do látex (qualitativo)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308294,
+    "Descricao": "Sífilis IgM"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308383,
+    "Descricao": "Proteína C reativa, qualitativa"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308391,
+    "Descricao": "Proteína C reativa, quantitativa"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308405,
+    "Descricao": "Aslo, quantitativo"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308553,
+    "Descricao": "Anticorpos Antitransglutaminase - IGA"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40308804,
+    "Descricao": "Anticorpos anti peptídeo cíclico citrulinado - IgG"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310051,
+    "Descricao": "B.A.A.R. (Ziehl ou fluorescência, pesquisa direta e após hom"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310060,
+    "Descricao": "Bacterioscopia (Gram, Ziehl, Albert  etc), por lâmina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310124,
+    "Descricao": "Cultura bacteriana (em diversos materiais biológicos)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310175,
+    "Descricao": "Cultura, fezes: salmonela, shigellae e esc. Coli enteropatog"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310183,
+    "Descricao": "Cultura, fezes: salmonella, shigella e escherichia coli ente"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310213,
+    "Descricao": "Cultura, urina com contagem de colônias"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310418,
+    "Descricao": "Antibiograma (teste de sensibilidade e antibióticos e quimio"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40310426,
+    "Descricao": "Antibiograma automatizado"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40311058,
+    "Descricao": "Catecolaminas fracionadas - dopamina, epinefrina, norepinefr"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40311171,
+    "Descricao": "Microalbuminúria"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40311180,
+    "Descricao": "Pesquisa ou dosagem de um componente urinário"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40311210,
+    "Descricao": "Rotina de urina (caracteres físicos, elementos anormais e se"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40311309,
+    "Descricao": "Eletroforese de proteínas urinárias, com concentração"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40312127,
+    "Descricao": "Perfil reumatológico (ácido úrico, eletroforese de proteínas"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40312143,
+    "Descricao": "Prova atividade de febre reumática (aslo, eletroforese de pr"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40312151,
+    "Descricao": "Provas de função hepática (bilirrubinas, eletroforese de pro"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40312160,
+    "Descricao": "Teste do pezinho básico (TSH neonatal + fenilalanina + eletr"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40312178,
+    "Descricao": "Teste do pezinho ampliado (TSH neonatal + 17 OH progesterona"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40313042,
+    "Descricao": "Ácido hipúrico (para tolueno)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40313069,
+    "Descricao": "Ácido metilhipúrico (para xilenos)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40313093,
+    "Descricao": "Carboxihemoglobina (para monóxido de carbono  diclorometano)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40313310,
+    "Descricao": "Cromo"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40313328,
+    "Descricao": "Zinco"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40314057,
+    "Descricao": "Fator V de layden por PCR"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40314618,
+    "Descricao": "Coronavirus Covid-19, pesquisa por metodo molecular"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316041,
+    "Descricao": "Adrenocorticotrófico, hormônio (ACTH)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316050,
+    "Descricao": "Aldosterona"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316068,
+    "Descricao": "Alfa-fetoproteína"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316076,
+    "Descricao": "Androstenediona"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316084,
+    "Descricao": "Anticorpo anti-receptor de TSH (TRAB)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316106,
+    "Descricao": "Anticorpos antitireóide (tireoglobulina)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316114,
+    "Descricao": "Antígeno Austrália (HBSAG)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316122,
+    "Descricao": "Antígeno carcinoembriogênico (CEA)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316130,
+    "Descricao": "Antígeno específico prostático livre (PSA livre)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316149,
+    "Descricao": "Antígeno específico prostático total (PSA)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316157,
+    "Descricao": "Anti-TPO"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316190,
+    "Descricao": "Cortisol"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316203,
+    "Descricao": "Crescimento, hormônio do (HGH)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316211,
+    "Descricao": "Dehidroepiandrosterona (DHEA)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316220,
+    "Descricao": "Dehidrotestosterona (DHT)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316246,
+    "Descricao": "Estradiol"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316254,
+    "Descricao": "Estriol"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316270,
+    "Descricao": "Ferritina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316289,
+    "Descricao": "Folículo estimulante, hormônio (FSH)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316300,
+    "Descricao": "Globulina de ligação de hormônios sexuais (SHBG)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316335,
+    "Descricao": "Hormônio luteinizante (LH)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316360,
+    "Descricao": "Insulina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316378,
+    "Descricao": "Marcadores tumorais (CA 19.9, CA 125, CA 72-4, CA 15-3, etc."
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316394,
+    "Descricao": "Peptídeo C"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316408,
+    "Descricao": "Progesterona"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316416,
+    "Descricao": "Prolactina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316424,
+    "Descricao": "PTH"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316432,
+    "Descricao": "Renina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316440,
+    "Descricao": "Somatomedina C (IGF1)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316459,
+    "Descricao": "Sulfato de dehidroepiandrosterona (S-DHEA)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316467,
+    "Descricao": "T3 livre"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316491,
+    "Descricao": "T4 livre"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316505,
+    "Descricao": "Testosterona livre"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316513,
+    "Descricao": "Testosterona total"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316521,
+    "Descricao": "Tireoestimulante, hormônio (TSH)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316530,
+    "Descricao": "Tireoglobulina"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316548,
+    "Descricao": "Tiroxina (T4)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316556,
+    "Descricao": "Triiodotironina (T3)"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40316572,
+    "Descricao": "Vitamina B12"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40323919,
+    "Descricao": "Teste rápido para detecção de HIV em gestante"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40324176,
+    "Descricao": "Chikungunya, anticorpos"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40324192,
+    "Descricao": "Antígeno NS1 do vírus da dengue, pesquisa"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40324788,
+    "Descricao": "SARS-CoV-2 (Coronavírus COVID-19), pesquisa de anticorpos IgA, IgG ou IgM, isolada por classe de imu"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40324796,
+    "Descricao": "SARS-CoV-2 (Coronavírus COVID-19), pesquisa de anticorpos totais (IgA, IgG, IgM), (com diretriz defi"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40325024,
+    "Descricao": "Teste SARS-COV-2 (Coronavírus COVID-19), teste rápido para detecção de antígeno"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40403068,
+    "Descricao": "Coleta de biópsia de medula óssea por agulha"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40503011,
+    "Descricao": "Análise de DNA com enzimas de restrição por enzima utilizada"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40601110,
+    "Descricao": "Procedimento diagnóstico em biópsia simples imprint e cell b"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40601137,
+    "Descricao": "Procedimento diagnóstico em citopatologia cérvico-vaginal on"
+  },
+  {
+    "Categoria": "Exames laboratoriais",
+    "Codigo": 40601200,
+    "Descricao": "Procedimento diagnostico em pecas cirurgicas simples, inclui"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40801012,
+    "Descricao": "RX Crânio - 2 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40801063,
+    "Descricao": "RX Seios da face"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40801071,
+    "Descricao": "RX Sela túrcica"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40801098,
+    "Descricao": "RX Ossos da face"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40801110,
+    "Descricao": "RX Articulação temporomandibular - bilateral"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40801128,
+    "Descricao": "RX Adenóides ou cavum"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802019,
+    "Descricao": "RX Coluna cervical - 3 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802027,
+    "Descricao": "RX Coluna cervical - 5 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802035,
+    "Descricao": "RX Coluna dorsal - 2 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802043,
+    "Descricao": "RX Coluna dorsal - 4 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802051,
+    "Descricao": "RX Coluna lombo-sacra -3 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802060,
+    "Descricao": "RX Coluna lombo-sacra - 5 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802078,
+    "Descricao": "RX Sacro-coccix"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802086,
+    "Descricao": "RX Coluna dorso-lombar para escoliose"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40802094,
+    "Descricao": "RX Coluna total para escoliose (telespondilografia)"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803015,
+    "Descricao": "RX Esterno"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803031,
+    "Descricao": "Costelas - por hemitórax"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803040,
+    "Descricao": "Clavícula"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803058,
+    "Descricao": "RX Omoplata ou escápula"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803074,
+    "Descricao": "Articulação escapuloumeral (ombro)"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803082,
+    "Descricao": "RX Braço"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803090,
+    "Descricao": "Rx Cotovelo"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803104,
+    "Descricao": "RX Antebraço"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803112,
+    "Descricao": "Rx Punho"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803120,
+    "Descricao": "Rx Mão ou quirodáctilo"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40803139,
+    "Descricao": "Rx Mãos e punhos para idade óssea"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804011,
+    "Descricao": "RX Bacia"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804038,
+    "Descricao": "Articulação coxofemoral (quadril)"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804046,
+    "Descricao": "RX Coxa"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804054,
+    "Descricao": "RX Joelho"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804062,
+    "Descricao": "RX Patela"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804070,
+    "Descricao": "RX Perna"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804089,
+    "Descricao": "RX Articulação tibiotársica (tornozelo)"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804097,
+    "Descricao": "RX Pé ou pododáctilo"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40804100,
+    "Descricao": "RX Calcâneo"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40805018,
+    "Descricao": "RX Tórax - 1 incidência"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40805026,
+    "Descricao": "RX Tórax - 2 incidências"
+  },
+  {
+    "Categoria": "Radiologia",
+    "Codigo": 40808017,
+    "Descricao": "RX Abdome simples"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901114,
+    "Descricao": "US Mamas"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901122,
+    "Descricao": "US Abdome total (inclui abdome inferior)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901130,
+    "Descricao": "Abdome superior (fígado, vias biliares, vesícula, pâncreas,"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901173,
+    "Descricao": "US Abdome inferior masculino (bexiga, próstata e vesículas"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901181,
+    "Descricao": "US Abdome inferior feminino (bexiga, útero, ovário e anexos)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901190,
+    "Descricao": "US Dermatológico - pele e subcutâneo"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901203,
+    "Descricao": "US Órgãos superficiais (tireóide ou escroto ou pênis ou crâ"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901211,
+    "Descricao": "US Estruturas superficiais (cervical ou axilas ou músculo ou"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901220,
+    "Descricao": "US Articular (por articulação)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901238,
+    "Descricao": "US Obstétrica"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901246,
+    "Descricao": "US Obstétrica convencional com Doppler colorido"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901300,
+    "Descricao": "US Transvaginal (inclui abdome inferior feminino)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901360,
+    "Descricao": "US Doppler colorido de vasos cervicais arteriais bilateral ("
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901386,
+    "Descricao": "US Doppler colorido de órgão ou estrutura isolada"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901483,
+    "Descricao": "US Doppler colorido venoso de membro inferior - unilateral"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901750,
+    "Descricao": "US - Próstata (via abdominal)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 40901769,
+    "Descricao": "US - Aparelho urinário (rins, ureteres e bexiga)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 41301048,
+    "Descricao": "Bioimpedanciometria (ambulatorial) exame"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 41301099,
+    "Descricao": "Coleta de material cérvico-vaginal"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50000080,
+    "Descricao": "Sessão individual ambulatorial, em terapia ocupacional"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50000462,
+    "Descricao": "Consulta em psicologia (com diretriz de utilização definida"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50000470,
+    "Descricao": "Sessão de psicoterapia individual por psicólogo (com diretri"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50000560,
+    "Descricao": "Consulta ambulatorial por nutricionista"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50000586,
+    "Descricao": "Consulta individual ambulatorial de fonoaudiologia (com dire"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50000616,
+    "Descricao": "Sessão individual ambulatorial de fonoaudiologia"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50005103,
+    "Descricao": "Metodo ABA (Analise de Comportamento Aplicada) (com diretriz definida pela ANS - nº 106 e 107)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50005170,
+    "Descricao": "Terapia ABA - Terapia Ocupacional - Pediatricas Especiais (com diretriz definida pela ANS - nº 106 e"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 50005189,
+    "Descricao": "Terapia ABA - Fonoaudiologia - Terapias Pediatricas Especiais (com diretriz definida pela ANS - nº 1"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 90040392,
+    "Descricao": "RM - FLUXO LIQUORICO (COMO COMPLEMENTAR)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 90060105,
+    "Descricao": "VITRECTOMIA VIAS PARS PLANA"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 90290712,
+    "Descricao": "Incisão e drenagem de flegmão"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 90321480,
+    "Descricao": "Instabilidade femoro-patelar, release lateral da patela, retencionamento, reforç"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 98000031,
+    "Descricao": "Em consultório (no horário normal ou preestabelecido) - Pleno"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 98000032,
+    "Descricao": "Em Pronto Socorro - Pleno"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 98000033,
+    "Descricao": "Atendimento ambulatorial em puericultura - Pleno"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990001,
+    "Descricao": "PACOTE - ANGIOPLASTIA TRANSLUMINAL PERCUTÂNEA DE MÚLTIPLOS VASOS, COM IMPLANTE DE STENT CONVENCIONAL"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990002,
+    "Descricao": "PACOTE - ANGIOPLASTIA TRANSLUMINAL PERCUTÂNEA DE MÚLTIPLOS VASOS, COM IMPLANTE STENT FARMACOLOGICO"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990003,
+    "Descricao": "PACOTE - CAUTERIZAÇÃO DE ALTA FREQUÊNCIA EM SISTEMA GENITAL E REPRODUTOR FEMININO"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990004,
+    "Descricao": "PACOTE - CAUTERIZAÇÃO QUÍMICA, OU ELETROCAUTERIZAÇÃO, OU CRIOCAUTERIZAÇÃO DE LESÕES DE COLO UTERINO"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990005,
+    "Descricao": "PACOTE - ORQUIDOPEXIA LAPAROSCÓPICA UNILATERAL"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990006,
+    "Descricao": "PACOTE - PAPILOTOMIA ENDOSCÓPICA (PARA RETIRADA DE CÁLCULOS COLEDOCIANOS OU DRENAGEM BILIAR)"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990007,
+    "Descricao": "PACOTE - FOTOABLAÇÃO DE SUPERFICIE CONVENCIONAL - PRK"
+  },
+  {
+    "Categoria": "Ultra-sonografia",
+    "Codigo": 99990012,
+    "Descricao": "PACOTE - ENDOSCOPIA DIGESTIVA"
+  },
+  {
+    "Categoria": "Outros",
+    "Codigo": 10000001,
+    "Descricao": "Sessões de Psicopedagogia"
+  },
+  {
+    "Categoria": "Outros",
+    "Codigo": 10000002,
+    "Descricao": "Assistência Terapeutica"
+  },
+  {
+    "Categoria": "Outros",
+    "Codigo": 10102035,
+    "Descricao": "Visita médica em domicílio"
+  },
+  {
+    "Categoria": "Outros",
+    "Codigo": 10106146,
+    "Descricao": "Atendimento ambulatorial em puericultura"
   }
 ]
+}

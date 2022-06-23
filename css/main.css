@@ -13,26 +13,25 @@ body{
   display: flex;
   justify-content: center;
 }
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+thead{
+  color: black;
+  background-color: white;
+  border-top: 1px solid black;
+  text-align: center;
 }
 
-.nav ul li a{
-  text-decoration: none;
-  margin: 0 15px;
-  padding: 10px 15px;
-  border-radius: 10px;
-  color: #19bc8b;
-  border: 0.2em solid #19bc8b;
-  
+tbody tr{
+  background-color: white;
+  text-align: center;
 }
 
-.nav ul li a:hover{
-  box-shadow: inset 20em 0 0 0 #19bc8b;
-  border-color: #19bc8b;
-  color: #fff;
-  transition: 0.5s;
+.desc{
+  text-align: start;
 }
 
+button{
+  border-radius: 5px;
+  margin: 20px 10px;
+  height: 50%;
+}
