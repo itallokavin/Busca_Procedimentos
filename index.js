@@ -110,7 +110,7 @@ function makeRequest(queryParam){
     let tabela = document.getElementById("tabela");
     tabela.innerHTML = ''
     if(queryParam){
-        main('http://localhost:3000/procedimentos?Categoria=' + queryParam)
+        main(`http://localhost:3000/procedimentos?Categoria=` + queryParam + `&_page=1&_limit=15`)
     }else{
         main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
     }
