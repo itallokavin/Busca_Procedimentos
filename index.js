@@ -115,5 +115,19 @@ function makeRequest(queryParam){
         main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
     }
 }
+
+function filterSearch(){
+    html.get('#search').addEventListener('keydown',()=>{
+        const dataSearchKey = document.querySelector('#search').value
+        tabela.innerHTML = ""
+        main(`http://localhost:3000/procedimentos/?_page=1&_limit=15&Descricao_like=${dataSearchKey}`)       
+        
+    })
+}
+
+
+filterSearch()
+
+
 window.onload = main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
 

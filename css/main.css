@@ -20,7 +20,7 @@ body{
 }
 
 button{
- margin: 15px 10px 10px 10px;
+ margin: 20px 10px 0px 10px;
 
 }
 
@@ -40,29 +40,24 @@ button{
   text-align: start;
 }
 
-
-
 #search{
   height: 40px;
   border: none;
   border-radius: 10px;
   outline: none;
   padding: 10px 10px 10px 40px;
-  width: 85%;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 #lupa{
   position: relative;
-  left: 35px;
+  left: 13px;
+  top: 33px;
   cursor: pointer;
   
 }
 
-#btn-filtro{
-  width: 10%;
-  height: 40px;
-  margin: 10px 15px;
-}
 
 .fa-sliders{
   margin:0 10px;
