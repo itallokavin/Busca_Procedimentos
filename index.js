@@ -137,10 +137,7 @@ function filterSearch(){
         
     })
 }
-
-
 filterSearch()
-
 
 window.onload = main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
 

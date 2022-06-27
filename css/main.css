@@ -17,6 +17,8 @@ body{
   background-color: white;
   padding: 20px 40px;
   border-radius: 20px;
+  box-shadow: 0 0 20px 5px #999;
+  margin-top: 10px;
 }
 
 .nav button{
@@ -32,7 +34,7 @@ body{
 }
 .nav button:hover, .active {
   background-color: #B1D249 !important;
-  box-shadow: none !important;
+  box-shadow: 0 0 0.6em #999 !important;
   color: white !important;
 }
 
@@ -61,6 +63,7 @@ body{
   padding: 10px 10px 10px 40px;
   width: 100%;
   margin-bottom: 15px;
+  box-shadow: 0 0 20px 5px #999;
 }
 
 #lupa{
