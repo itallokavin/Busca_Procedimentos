@@ -1,16 +1,37 @@
+@font-face {
+  font-family: 'Unimed Sans';
+  src: url('../Unimed-fonts/UnimedSans-Regular.otf') format('opentype');
+}
+
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Unimed Sans'
+  font-family: 'Unimed Sans';
 }
 
 body{
   background-color: #dfdfdf;
 }
+
+.title{
+  width: 100%;
+  color: #00985C;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img{
+  width: 140px;
+  height: 65px;
+}
+
 .nav{
   line-height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .dados{
@@ -36,6 +57,10 @@ body{
   background-color: #B1D249 !important;
   box-shadow: 0 0 0.6em #999 !important;
   color: white !important;
+}
+
+#todos{
+  margin-left: 0;
 }
 
 

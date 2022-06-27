@@ -67,9 +67,9 @@ const controls = {
         pageNum++
         if(pageNum > totalPage){
             pageNum--
-            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
         }else{
-            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
         }
         console.log(pageNum)
     },
@@ -78,23 +78,23 @@ const controls = {
         pageNum--
         if(pageNum < 1){
             pageNum++
-            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
         }
         else{
-            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+            main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
         }
         console.log(pageNum)
     },
     last(){
         tabela.innerHTML = "";
         pageNum = totalPage
-        main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+        main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
         console.log(pageNum)
     },
     first(){
         tabela.innerHTML = "";
         pageNum = 1
-        main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+        main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
         console.log(pageNum)
     },
     createListeners(){
@@ -123,9 +123,9 @@ function makeRequest(queryParam){
     let tabela = document.getElementById("tabela");
     tabela.innerHTML = ''
     if(queryParam){
-        main(`http://localhost:3000/procedimentos?Categoria=` + queryParam + `&_page=1&_limit=15`)
+        main(`http://localhost:3000/procedimentos?Categoria=` + queryParam + `&_page=1&_limit=13`)
     }else{
-        main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+        main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
     }
 }
 
@@ -133,11 +133,11 @@ function filterSearch(){
     html.get('#search').addEventListener('keydown',()=>{
         const dataSearchKey = document.querySelector('#search').value
         tabela.innerHTML = ""
-        main(`http://localhost:3000/procedimentos/?_page=1&_limit=15&Descricao_like=${dataSearchKey}`)       
+        main(`http://localhost:3000/procedimentos/?_page=1&_limit=13&Descricao_like=${dataSearchKey}`)       
         
     })
 }
 filterSearch()
 
-window.onload = main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=15`)
+window.onload = main(`http://localhost:3000/procedimentos/?_page=${pageNum}&_limit=13`)
 
