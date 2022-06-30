@@ -1,14 +1,17 @@
+const totalDados = JSON.parse(fazGet('http://localhost:3000/procedimentos')).length /*retorna total de dados json, 314 registros*/
+const limitPage = 13 /* Limite de registros por página */
+let page = 1;
+let registros = 13
 
 function fazGet(url) {
     let request = new XMLHttpRequest()
     request.open("Get", url , false)
     request.send()
-    
-    return request.responseText
+    return request.responseText 
 }
 
 function criaLinha(procedimentos){
-    document.querySelector('.num').innerHTML = pageAtual
+    document.querySelector(".num").innerHTML = `${page}`
     linha = document.createElement("tr");
     tdCategoria = document.createElement ("td");
     tdDescricao = document.createElement ("td");
@@ -62,18 +65,6 @@ const html = {
     }
 }
 
-function makeRequest(queryParam){
-    let tabela = document.getElementById("tabela");
-    tabela.innerHTML = ''
-    if(queryParam){
-        main(`http://localhost:3000/procedimentos?Categoria=` + queryParam + `&_page=1&_limit=${limitPage}`)
-        
-    }else{
-        main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-    
-    }
-}
-
 function filterSearch(){
     html.get('#search').addEventListener('keydown',()=>{
         const dataSearchKey = document.querySelector('#search').value
@@ -83,90 +74,103 @@ function filterSearch(){
     })
 }
 
-const totalDados = JSON.parse(fazGet('http://localhost:3000/procedimentos')).length /*retorna total de dados json, 314 registros*/
-const limitPage = 13 /* Limite de registros por página */
-const totalPage = Math.ceil(totalDados / limitPage) /* retorna total de páginas com limite de registros pro página. */
-const pageIni = 1 /* Define a página INICIAL*/
-let pageAtual = 1 /* Inicia a o contador da página inicial */
+function makeRequest(queryParam){
+    let tabela = document.getElementById("tabela");
+    tabela.innerHTML = ''
+    if(queryParam){
+        page = 1
+        let i = 1
+        let totalDadosCategoria = JSON.parse(fazGet(`http://localhost:3000/procedimentos?Categoria=`+queryParam))
+        let totalPageCategoria = Math.ceil(totalDadosCategoria.length / limitPage);
+        
+        main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+        
+        next.onclick = function(){
+            i++
+            page++
+            if( i > totalPageCategoria && page > totalPageCategoria){
+                i--
+                page--
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                
+            }
+            else{
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+            }
 
-function registro(paginaAtual){
-    let exibirRegistro = paginaAtual * limitPage
-    if (exibirRegistro > totalDados ){
-        exibirRegistro = totalDados
+        }
+        prev.onclick = function(){
+            i--
+            page--
+            if( i < 1 && page < 1 ){
+                i++
+                page++
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                
+            }
+            else{
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+            }
+
+        }
+    }else{
+        
+        let totalDados = JSON.parse(fazGet(`http://localhost:3000/procedimentos`))
+        let totalPage = Math.ceil(totalDados.length / limitPage); 
+        let i = 1
+        
+        main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+        
+        next.onclick = function(){
+            i++
+            page++
+                    
+            if( i > totalPage && page > totalPage){
+                i--
+                page--
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                
+            }
+            else{
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+            }
+
+        }
+        
+        prev.onclick = function(){
+            i--
+            page--
+            if( i < 1 && page < 1 ){
+                i++
+                page++
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                
+            }
+            else{
+                tabela.innerHTML = '';
+                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+            }
+
+        }
+        
     }
-    if(exibirRegistro < limitPage){
-        exibirRegistro = limitPage
-    }
-    document.getElementById("totalRegistro").innerHTML = `Exibindo ${exibirRegistro} de ${totalDados} registros.`
-    
 }
 
-const pagination = {
-    next(){
-        tabela.innerHTML = "";
-        pageAtual++
-        if(pageAtual > totalPage){
-            pageAtual--
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-        }else{
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-            registro(pageAtual)
-        }
-    },
-    prev(){
-        tabela.innerHTML = "";
-        pageAtual--
-        if(pageAtual < pageIni){
-            pageAtual++
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-        }else{
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-            registro(pageAtual)
-        }
-    },
-    last(){
-        tabela.innerHTML = "";
-        pageAtual = totalPage
-        if(pageAtual > totalPage){
-            pageAtual--
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-        }else{
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-            registro(pageAtual)
-        }
-    },
-    first(){
-        tabela.innerHTML = "";
-        pageAtual = pageIni
-        if(pageAtual < pageIni){
-            pageAtual++
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-        }else{
-            main(`http://localhost:3000/procedimentos/?_page=${pageAtual}&_limit=13`)
-            registro(pageAtual)
-        }
-    },
-    createListeners(){
-        html.get('.next').addEventListener('click',() =>{
-            pagination.next()
-        });
-        html.get('.prev').addEventListener('click',() =>{
-            pagination.prev()
-        })
-        html.get('.last').addEventListener('click',() =>{
-            pagination.last()
-        })
-        html.get('.first').addEventListener('click',() =>{
-            pagination.first()
-        })
-    }
-}
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
 
-pagination.createListeners();
 filterSearch();
 pressBtnCategory();
 
-window.onload = main(`http://localhost:3000/procedimentos/?_page=1&_limit=13`)
-registro(pageAtual)
+window.onload = makeRequest();
 
 
+
+ 
