@@ -117,6 +117,18 @@ function makeRequest(queryParam){
             }
 
         }
+        last.onclick = function(){
+            i = totalPageCategoria
+            page = totalPageCategoria
+            tabela.innerHTML = '';
+            main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+        }
+        first.onclick = function(){
+            i = 1
+            page = 1
+            tabela.innerHTML = '';
+            main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+        }
     }else{
         
         let totalDados = JSON.parse(fazGet(`http://localhost:3000/procedimentos`))
@@ -159,12 +171,26 @@ function makeRequest(queryParam){
             }
 
         }
+        last.onclick = function(){
+            i = totalPage
+            page = totalPage
+            tabela.innerHTML = '';
+            main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+        }
+        first.onclick = function(){
+            i = 1
+            page = 1
+            tabela.innerHTML = '';
+            main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+        }
         
     }
 }
 
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
+const last = document.querySelector('.last');
+const first = document.querySelector('.first');
 
 filterSearch();
 pressBtnCategory();
