@@ -9,6 +9,10 @@
   font-family: 'Unimed Sans';
 }
 
+html,body{
+  height: 100%;
+}
+
 body{
   background-color: #dfdfdf;
 }
@@ -17,15 +21,14 @@ body{
   width: 100%;
   color: #00985C;
   height: 70px;
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .title img{
-  width: 140px;
-  height: 65px;
+  width: 130px;
+  height: 55px;
 }
 
 .nav{
@@ -39,11 +42,10 @@ body{
   padding: 20px 40px;
   border-radius: 20px;
   box-shadow: 0 0 20px 5px #999;
-  margin-top: 10px;
 }
 
 .nav button{
- margin: 20px 10px 0px 10px;
+ margin: 10px 10px 0px 10px;
  background-color: #00985C;
  color: white;
  height: 40px;
@@ -107,14 +109,23 @@ body{
 .pagination{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.pagination p{
+  font-size: 16px;
+  padding-top: 15px;
 }
 
 .pagination div{
   margin: 0 10px;
   cursor: pointer;
   font-size: 16px;
-  
+   
+}
+.but{
+  display: flex;
 }
 
 .first, .prev , .next , .last, .num{

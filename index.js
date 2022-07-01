@@ -74,6 +74,19 @@ function filterSearch(){
     })
 }
 
+function exibir(r,d,p){
+    r = 13 * p
+    console.log(r) 
+    if(r > d.length){
+        r = d.length
+        document.querySelector("#totalRegistro").innerHTML = `Exibindo ${r} de ${d.length} registros`
+    }
+    else{
+        document.querySelector("#totalRegistro").innerHTML = `Exibindo ${r} de ${d.length} registros`
+        
+    } 
+}
+
 function makeRequest(queryParam){
     let tabela = document.getElementById("tabela");
     tabela.innerHTML = ''
@@ -84,6 +97,7 @@ function makeRequest(queryParam){
         let totalPageCategoria = Math.ceil(totalDadosCategoria.length / limitPage);
         
         main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+        exibir(registros,totalDadosCategoria,page)
         
         next.onclick = function(){
             i++
@@ -93,11 +107,13 @@ function makeRequest(queryParam){
                 page--
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                exibir(registros,totalDadosCategoria,page)
                 
             }
             else{
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                exibir(registros,totalDadosCategoria,page)
             }
 
         }
@@ -109,11 +125,13 @@ function makeRequest(queryParam){
                 page++
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                exibir(registros,totalDadosCategoria,page)
                 
             }
             else{
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                exibir(registros,totalDadosCategoria,page)
             }
 
         }
@@ -122,35 +140,42 @@ function makeRequest(queryParam){
             page = totalPageCategoria
             tabela.innerHTML = '';
             main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+            exibir(registros,totalDadosCategoria,page)
         }
         first.onclick = function(){
             i = 1
             page = 1
             tabela.innerHTML = '';
             main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+            exibir(registros,totalDadosCategoria,page)
         }
     }else{
         
         let totalDados = JSON.parse(fazGet(`http://localhost:3000/procedimentos`))
         let totalPage = Math.ceil(totalDados.length / limitPage); 
         let i = 1
+        registros = totalDados.length
         
         main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+        exibir(registros,totalDados,page)
+        
         
         next.onclick = function(){
             i++
             page++
-                    
+            registros = 13 * page
             if( i > totalPage && page > totalPage){
                 i--
                 page--
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                exibir(registros,totalDados,page)
                 
             }
             else{
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                exibir(registros,totalDados,page)
             }
 
         }
@@ -163,11 +188,13 @@ function makeRequest(queryParam){
                 page++
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                exibir(registros,totalDados,page)
                 
             }
             else{
                 tabela.innerHTML = '';
                 main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                exibir(registros,totalDados,page)
             }
 
         }
@@ -176,12 +203,14 @@ function makeRequest(queryParam){
             page = totalPage
             tabela.innerHTML = '';
             main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+            exibir(registros,totalDados,page)
         }
         first.onclick = function(){
             i = 1
             page = 1
             tabela.innerHTML = '';
             main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+            exibir(registros,totalDados,page)
         }
         
     }

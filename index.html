@@ -17,7 +17,6 @@
                 <h2>Busca de procedimentos</h2>
                 <img src="imagens/logo.png" alt="">
             </div>
-            
             <button class="btn active" id="todos" onclick="makeRequest(null)">Todos</button>
             <button class="btn" id="cardiologia" onclick="makeRequest('Cardiologia')">Cardiologia</button>
             <button class="btn" id="exameLab" onclick="makeRequest('Exames laboratoriais')">Exames Laboratoriais </button>
@@ -45,22 +44,20 @@
 
                 </tbody>
             </table>
-            <div>
-                <p id="totalRegistro"></p>
-            </div>
+
             <div class="pagination">
-                <div class="first">&#171;</div>
-                <div class="prev">&lt;</div>
-                <div class="numbers">
-                    <div class="num"></div>
+                <p id="totalRegistro"></p>
+                <div class="but">
+                    <div class="first">&#171;</div>
+                    <div class="prev">&lt;</div>
+                    <div class="numbers">
+                        <div class="num"></div>
+                    </div>
+                    <div class="next">&gt;</div>
+                    <div class="last">&#187;</div>
                 </div>
-                <div class="next">&gt;</div>
-                <div class="last">&#187;</div>
             </div>
-
-            
         </div>
-
 
     </div>
     <script src="./index.js"></script>
