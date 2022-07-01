@@ -68,8 +68,18 @@ const html = {
 function filterSearch(){
     html.get('#search').addEventListener('keydown',()=>{
         const dataSearchKey = document.querySelector('#search').value
+        let data = JSON.parse(fazGet(`http://localhost:3000/procedimentos/?Descricao_like=${dataSearchKey}`))
         tabela.innerHTML = ""
-        main(`http://localhost:3000/procedimentos/?_page=1&_limit=${limitPage}&Descricao_like=${dataSearchKey}`)       
+        main(`http://localhost:3000/procedimentos/?_page=1&_limit=${limitPage}&Descricao_like=${dataSearchKey}`)
+        registros = 13
+        if(registros > data.length){
+            registros = data.length
+            document.querySelector("#totalRegistro").innerHTML = `Exibindo ${registros} de ${data.length} registros`
+        }
+        else{
+            document.querySelector("#totalRegistro").innerHTML = `Exibindo ${registros} de ${data.length} registros`
+        }
+        
         
     })
 }

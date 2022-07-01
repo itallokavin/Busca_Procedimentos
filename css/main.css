@@ -137,3 +137,13 @@ body{
   background-color: #198754;
   color: white;
 }
+
+#rodape{
+  display: flex;
+  color: #000;
+  justify-content: center;
+}
+
+#rodape p{
+  margin: 30px 15px;
+}
