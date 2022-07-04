@@ -1,4 +1,4 @@
-const totalDados = JSON.parse(fazGet('http://localhost:3000/procedimentos')).length /*retorna total de dados json, 314 registros*/
+const totalDados = JSON.parse(fazGet('http://192.168.0.249:3000/procedimentos')).length /*retorna total de dados json, 314 registros*/
 const limitPage = 13 /* Limite de registros por página */
 let page = 1;
 let registros = 13
@@ -71,9 +71,9 @@ function filterSearch(){
         
         if (dataSearchKey.length >= 1 ){
             document.getElementById("but").style.display = 'none';
-            let data = JSON.parse(fazGet(`http://localhost:3000/procedimentos/?Descricao_like=${dataSearchKey}`))
+            let data = JSON.parse(fazGet(`http://192.168.0.249:3000/procedimentos/?Descricao_like=${dataSearchKey}`))
             tabela.innerHTML = ""
-            main(`http://localhost:3000/procedimentos/?_page=1&_limit=${limitPage}&Descricao_like=${dataSearchKey}`)
+            main(`http://192.168.0.249:3000/procedimentos/?_page=1&_limit=${limitPage}&Descricao_like=${dataSearchKey}`)
             registros = 13
             if(registros > data.length){
                 registros = data.length
@@ -85,9 +85,9 @@ function filterSearch(){
         }
         else{
             document.getElementById("but").style.display = 'flex';
-            let data = JSON.parse(fazGet(`http://localhost:3000/procedimentos/?Descricao_like=${dataSearchKey}`))
+            let data = JSON.parse(fazGet(`http://192.168.0.249:3000/procedimentos/?Descricao_like=${dataSearchKey}`))
             tabela.innerHTML = ""
-            main(`http://localhost:3000/procedimentos/?_page=1&_limit=${limitPage}&Descricao_like=${dataSearchKey}`)
+            main(`http://192.168.0.249:3000/procedimentos/?_page=1&_limit=${limitPage}&Descricao_like=${dataSearchKey}`)
             registros = 13
             if(registros > data.length){
                 registros = data.length
@@ -119,10 +119,10 @@ function makeRequest(queryParam){
     if(queryParam){
         page = 1
         let i = 1
-        let totalDadosCategoria = JSON.parse(fazGet(`http://localhost:3000/procedimentos?Categoria=`+queryParam))
+        let totalDadosCategoria = JSON.parse(fazGet(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam))
         let totalPageCategoria = Math.ceil(totalDadosCategoria.length / limitPage);
         
-        main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+        main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
         exibir(registros,totalDadosCategoria,page)
         
         next.onclick = function(){
@@ -132,13 +132,13 @@ function makeRequest(queryParam){
                 i--
                 page--
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
                 exibir(registros,totalDadosCategoria,page)
                 
             }
             else{
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
                 exibir(registros,totalDadosCategoria,page)
             }
 
@@ -150,13 +150,13 @@ function makeRequest(queryParam){
                 i++
                 page++
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
                 exibir(registros,totalDadosCategoria,page)
                 
             }
             else{
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
                 exibir(registros,totalDadosCategoria,page)
             }
 
@@ -165,24 +165,24 @@ function makeRequest(queryParam){
             i = totalPageCategoria
             page = totalPageCategoria
             tabela.innerHTML = '';
-            main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+            main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
             exibir(registros,totalDadosCategoria,page)
         }
         first.onclick = function(){
             i = 1
             page = 1
             tabela.innerHTML = '';
-            main(`http://localhost:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
+            main(`http://192.168.0.249:3000/procedimentos?Categoria=`+queryParam+`&_page=${i}&_limit=13`)
             exibir(registros,totalDadosCategoria,page)
         }
     }else{
         
-        let totalDados = JSON.parse(fazGet(`http://localhost:3000/procedimentos`))
+        let totalDados = JSON.parse(fazGet(`http://192.168.0.249:3000/procedimentos`))
         let totalPage = Math.ceil(totalDados.length / limitPage); 
         let i = 1
         registros = totalDados.length
         
-        main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+        main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
         exibir(registros,totalDados,page)
         
         
@@ -194,13 +194,13 @@ function makeRequest(queryParam){
                 i--
                 page--
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
                 exibir(registros,totalDados,page)
                 
             }
             else{
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
                 exibir(registros,totalDados,page)
             }
 
@@ -213,13 +213,13 @@ function makeRequest(queryParam){
                 i++
                 page++
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
                 exibir(registros,totalDados,page)
                 
             }
             else{
                 tabela.innerHTML = '';
-                main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+                main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
                 exibir(registros,totalDados,page)
             }
 
@@ -228,14 +228,14 @@ function makeRequest(queryParam){
             i = totalPage
             page = totalPage
             tabela.innerHTML = '';
-            main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+            main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
             exibir(registros,totalDados,page)
         }
         first.onclick = function(){
             i = 1
             page = 1
             tabela.innerHTML = '';
-            main(`http://localhost:3000/procedimentos/?_page=${i}&_limit=13`)
+            main(`http://192.168.0.249:3000/procedimentos/?_page=${i}&_limit=13`)
             exibir(registros,totalDados,page)
         }
         
