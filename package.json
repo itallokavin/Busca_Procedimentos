@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "back-end": "json-server --watch procedimentos.json",
-    "start": "node index.js"
+    "start": "npm i && node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
