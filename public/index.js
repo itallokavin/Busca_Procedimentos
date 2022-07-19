@@ -53,7 +53,8 @@ function pressBtnCategory(){
         
     }
     this.className += " active";
-    document.querySelector('#search').value = ' ';
+    document.querySelector('#search').value = '';
+    document.getElementById("but").style.display = 'flex';
     });
     }
 
@@ -66,8 +67,16 @@ const html = {
 }
 
 function filterSearch(){
+    
     html.get('#search').addEventListener('keyup',()=>{
+        
         const dataSearchKey = document.querySelector('#search').value
+        let clas = document.getElementsByClassName("active");
+        
+        if (clas.length > 0) { 
+            clas[0].className = clas[0].className.replace(" active", "");
+            document.getElementById('todos').className += " active";
+        }
         
         if (dataSearchKey.length >= 1 ){
             document.getElementById("but").style.display = 'none';
