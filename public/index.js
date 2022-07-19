@@ -53,7 +53,7 @@ function pressBtnCategory(){
         
     }
     this.className += " active";
-        
+    document.querySelector('#search').value = ' ';
     });
     }
 
